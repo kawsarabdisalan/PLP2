@@ -75,4 +75,18 @@ Identifier names and operator symbols are bound during the following times:
 -Decleration and defintion. 
 -Operator symbols and compliation and runtime. 
 If you try to put something like x = '5' + 6 and try to print x, it will not work as it will give you an error message. To do this correctly: 
-  
+```
+#include <iostream>
+using namespace std;
+
+int main(){
+    string x = "5";
+    int y = 6;
+    int total = stoi(x) + y;
+    cout << total << "\n";
+
+}
+```
+This will output 11
+<br>
+Overall, C++ is a language that is very flexible and easy to use. Following the rules of declaring the variable and the format, everything else can be edited as you continue with your program. Following the syntax and rules is the most important thing for you not to get errors, but overall it is a very easy and flexible language. 
