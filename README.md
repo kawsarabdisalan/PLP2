@@ -22,7 +22,7 @@ int myNum = 15;
 C++ is an strongly typed lanugage. This means it has more stricter writing rules. As you are writing your program, you must declare the types of variables as you are writing so the program can go back and check what the variable is before it executes it. If you forget to declare or wrote the wrong type, it will give you errors as it is debugging. 
 <br>
 C++ is an explicitly typed language. An explicitly typed language is when you have to provide as much detail as you can to variables, functions, etc while implicitly typed language is when the language figures out the details for you. An example of this would be when you are assigning a variable like x = 42, in C++ you would have to say the type it is like (int x = 42). Unlike in python where you can just say x = 42 and it would figure it out. 
-<br> 
+<br>
 In C++, all objects are mutable at the start. If you want to modify it to become immuable, C++ has functions like const or constexpr. 
 <br>
 To declare a variable immutable, you can put either const before declaring the variable which makes it unchangeble and read only. 
@@ -70,10 +70,10 @@ cout << decimalNum + myNum << "\n"; //you can add a int and float together and i
 cout << decimalNum / myNum << "\n";
 ```
 
-Identifier names and operator symbols are bound during the following times: 
--Variables, function names and class names. 
--Decleration and defintion. 
--Operator symbols and compliation and runtime. 
+Identifier names and operator symbols are bound during the following times: <br>
+-Variables, function names and class names. <br>
+-Decleration and defintion. <br>
+-Operator symbols and compliation and runtime. <br>
 If you try to put something like x = '5' + 6 and try to print x, it will not work as it will give you an error message. To do this correctly: 
 ```
 #include <iostream>
@@ -89,4 +89,11 @@ int main(){
 ```
 This will output 11
 <br>
-Overall, C++ is a language that is very flexible and easy to use. Following the rules of declaring the variable and the format, everything else can be edited as you continue with your program. Following the syntax and rules is the most important thing for you not to get errors, but overall it is a very easy and flexible language. 
+Overall, C++ is a language that is very flexible and easy to use. Following the rules of declaring the variable and the format, everything else can be edited as you continue with your program. Following the syntax and rules is the most important thing for you not to get errors, but overall it is a very easy and flexible language. <br>
+
+Sources: 
+- https://www.w3schools.com/cpp/cpp_variables.asp
+- https://www.w3schools.com/cpp/cpp_data_types.asp
+- https://www.w3schools.com/cpp/cpp_operators.asp
+- https://www.w3schools.com/cpp/cpp_arrays.asp
+
