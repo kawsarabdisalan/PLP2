@@ -7,6 +7,13 @@ The naming requirments of C++ include: <br>
 -Names are case-sensitive (myVar and myvar are different variables <br> 
 -Names cannot contain whitespaces or special characters like !, #, %, etc. <br>
 -Reserved words (like C++ keywords, such as int) cannot be used as names <br>
+Below are different examples on variables seen in C++ and how to write them: 
+```
+int myNum = 15;
+string myString = "Hello World";
+double myFloatingPointNumber = 15.99; //a decimal number can be held by a double
+bool myBoolean = true; //can be either true or false also only in lowercase
+list <string> cars = {"Toyota", "Honda", "BMW"}; //this is how you declare a list but make sure in the beginning of your program you have downloaded the list library called #include <list>  
 <br> 
 The naming conventions for C++ is usually camel case where the first word is lowercase and second starts with an uppercase . It is not enforced but usually recommended:
   ```
