@@ -1,4 +1,4 @@
-# PLP2
+# PLP-2
 
 ### Keywords and naming requirments
 C++ has 95 reserved key words. <br>
