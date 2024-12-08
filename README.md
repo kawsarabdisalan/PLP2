@@ -1,4 +1,6 @@
 # PLP2
+
+### Keywords and naming requirments
 C++ has 95 reserved key words. <br>
 <br>
 The naming requirments of C++ include: <br>
@@ -8,7 +10,7 @@ The naming requirments of C++ include: <br>
 - They can't contain special characters like !, #,%, $, etc
 - Reserved keywords are not able to be used as variable names (like Int, String, etc) <br>
 
-
+### Identifiers
 These naming identifiers are enforeced by the complier. If you were to try to break them, the program will give you errors. <br>
 Below are different examples on variables seen in C++ and how to write them: 
 ```
@@ -19,6 +21,8 @@ bool myBoolean = true; //can be either true or false also only in lowercase
 list <string> cars = {"Toyota", "Honda", "BMW"}; //this is how you declare a list but make sure in the beginning of your program you have downloaded the list library called #include <list>
 ```
 <br> 
+
+### Naming Conventions
 The naming conventions for C++ is usually camel case where the first word is lowercase and second starts with an uppercase . It is not enforced but usually recommended:
 
 ```
@@ -40,9 +44,9 @@ C++ is an explicitly typed language. An explicitly typed language is when you ha
 int x = 42;
 x = 42 //will give you an error
 ```
-
 <br>
 
+### Mutable and Immutable
 In C++, all objects are mutable at the start. If you want to modify it to become immuable, C++ has functions like const or constexpr. 
 <br>
 To declare a variable immutable, you can put either const before declaring the variable which makes it unchangeble and read only. 
@@ -57,6 +61,8 @@ const int myNum = 15;
 int myNum = 10;
 ```
 If you try to change it to 10, it will give you an error as you can't change it now as it is only 15. 
+
+### Operators
 
 C++ has many operators available for each data type. 
 <br> 
@@ -89,12 +95,12 @@ int myNum = 15;
 cout << decimalNum + myNum << "\n"; //you can add a int and float together and it will come out a float 
 cout << decimalNum / myNum << "\n";
 ```
-
+### Identifiers
 Identifier names and operator symbols are bound during the following times: <br>
 -Variables, function names and class names. <br>
 -Decleration and defintion. <br>
 -Operator symbols and compliation and runtime. <br>
-
+### Limitations
 In C++, there are not much limitations to combining different types of variables. Below is an example where you can add a string and integer in C++. To do this, you would first declare your variables to what you want. Then when adding the two together, convert the string into an integer using stoi(). This will allow you to add a string and integer together. 
 ```
 #include <iostream>
